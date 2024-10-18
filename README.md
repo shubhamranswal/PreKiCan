@@ -11,16 +11,6 @@ PreKiCan is a convolutional neural network (CNN) model designed to detect kidney
 - **Robust Training**: Includes extensive data preprocessing, augmentation, and the use of advanced optimization techniques to ensure high accuracy and reliability.
 - **Easy Deployment**: The trained model can be easily loaded and used for predictions on new x-ray images using provided scripts.
 
-### Project Structure
-
-- **data/**: Contains the x-ray image dataset used for training and testing the model.
-- **models/**: Directory where trained model weights and architectures are saved.
-- **scripts/**:
-  - `train.py`: Script to train the model.
-  - `predict.py`: Script to load the trained model and make predictions on new images.
-- **notebooks/**: Jupyter notebooks used for exploratory data analysis and model development.
-- **results/**: Contains results from model training and evaluation, including accuracy and loss metrics.
-
 ### Data Preparation
 
 1. **Load Dataset**: Import the x-ray image dataset, which includes 10,000 images (5,000 cancerous and 5,000 non-cancerous).
